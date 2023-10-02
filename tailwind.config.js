@@ -11,6 +11,7 @@ module.exports = {
         'search-bar-fill' : '#212327',
         'card-component' : '#000',
         'card-component-bg' : '#40596A',
+        'step-1-text-color' : 'rgba(255, 255, 255, 0.60)',
 
 
      },
@@ -42,6 +43,7 @@ module.exports = {
         '426px': '426px',
         '434px': '434px',
         '348px': '348px',
+        '360px': '360px',
         '512px': '512px',
         '482px': '482px',
         '598px': '598px',
@@ -52,6 +54,9 @@ module.exports = {
         '2.56013rem': '2.56013rem',
         '0.76688rem': '0.76688rem',
 
+      },
+      fontSize: {
+        '15px':'15px'
       },
       gap: {
         '2.5': '0.625rem',
@@ -73,6 +78,8 @@ module.exports = {
         'card-component-signup-2': '80px 20px 20px 20px',
         'tweet-component-frame': '8px 16px',
         'login-page': '14.78125rem 10.121rem',
+        'login-page-step-1': '0px 15px 20px 15px',
+        'create-acc-login-page-step-1': '80px 20px 0px 20px',
       },
     },
   },
