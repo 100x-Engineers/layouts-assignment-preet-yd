@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .fixed {
   position: fixed;
 }
@@ -554,8 +558,16 @@ video {
   margin-top: 13rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .h-0 {
@@ -620,6 +632,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-442 {
+  width: 27.625rem;
 }
 
 .shrink-0 {
@@ -692,6 +708,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -745,8 +765,17 @@ video {
   background-color: transparent;
 }
 
+.bg-twitter-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 155 240 / var(--tw-bg-opacity));
+}
+
 .p-login-page-step-1 {
   padding: 0px 15px 20px 15px;
+}
+
+.p-create-acc-login-page-step-1 {
+  padding: 80px 20px 0px 20px;
 }
 
 .px-2 {
@@ -789,12 +818,51 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-93px {
+  padding-left: 93px;
+  padding-right: 93px;
+}
+
+.py-15px {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pr-9 {
   padding-right: 2.25rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pl-9 {
+  padding-left: 2.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -850,6 +918,10 @@ video {
   font-weight: 400;
 }
 
+.not-italic {
+  font-style: normal;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
@@ -900,6 +972,16 @@ video {
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
+.placeholder\:text-neutral-50::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-50::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
 .focus-within\:border-twitter-blue:focus-within {
   --tw-border-opacity: 1;
   border-color: rgb(29 155 240 / var(--tw-border-opacity));
@@ -908,6 +990,21 @@ video {
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-twitter-blue-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
+}
+
+.focus\:text-white:focus {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .group:focus-within .group-focus-within\:text-twitter-blue {
