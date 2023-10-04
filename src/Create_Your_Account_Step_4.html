@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body class="bg-black px-15px pb-5">
+    <header>
+        <div class="flex items-center py-3 gap-5 self-stretch ">
+            <a href="../src/index.html">
+                <img class="w-6 h-6" src="../public/images/create-account-1-signup-x.svg" alt="cross">
+            </a>
+            <p class="text-neutral-50 font-inter text-15px font-bold leading-normal"> Step 3 of 4 </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="flex flex-col items-start gap-10 self-stretch">
+            <div>
+                <p class="text-neutral-50 font-inter text-2xl font-bold">You’ll need a password</p>
+                <p class="text-neutral-500 font-inter text-sm font-normal">Make sure it’s 8 characters or more</p>
+            </div>
+            <div class="w-full">
+                <fieldset class="group flex items-center self-stretch h-16 px-3 py-4 gap-2.5 rounded border border-neutral-500 border-solid focus-within:border-twitter-blue">
+                    <legend class="text-neutral-500 font-inter text-xs font-medium leading-normal px-2 group-focus-within:text-twitter-blue">Password</legend>
+                    <input type="text" placeholder="Password" class="text-neutral-50 pb-2 font-inter text-base font-normal leading-normal w-full bg-transparent outline-none placeholder:text-neutral-500">
+                    <img class="w-6 h-6 pb-2" src="../public/images/create-account-4-signup-eye.svg" >
+                </fieldset>
+            </div>
+        </section>
+        <a class="flex justify-end items-center fixed bottom-10 w-full pr-9" href="../src/Home_Feed.html">
+            <button class=" flex justify-center items-center w-full px-6 py-2 gap-2.5 rounded-4xl bg-neutral-50 shadow-08160 backdrop-blur-xl text-center font-inter text-base font-bold hover:bg-neutral-200 ">Next</button>
+        </a>
+        
+    </main>
+</body>
+</html>
