@@ -542,8 +542,31 @@ video {
   bottom: 2.5rem;
 }
 
-.mt-52 {
-  margin-top: 13rem;
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-5 {
@@ -558,8 +581,24 @@ video {
   margin-right: auto;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .h-0 {
@@ -578,6 +617,14 @@ video {
   height: 1.12663rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -590,12 +637,8 @@ video {
   height: 1.5rem;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-12 {
-  height: 3rem;
+.h-9 {
+  height: 2.25rem;
 }
 
 .w-0 {
@@ -604,6 +647,10 @@ video {
 
 .w-0\.76688rem {
   width: 0.76688rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-172px {
@@ -630,20 +677,16 @@ video {
   width: 1.5rem;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-596px {
-  width: 596px;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-598px {
-  width: 598px;
+.w-434px {
+  width: 434px;
 }
 
 .shrink-0 {
@@ -656,6 +699,14 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.content-end {
+  align-content: flex-end;
 }
 
 .content-between {
@@ -680,6 +731,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-evenly {
@@ -710,20 +765,24 @@ video {
   gap: 0.75rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
+.gap-32 {
+  gap: 8rem;
 }
 
 .gap-4 {
   gap: 1rem;
 }
 
-.gap-32 {
-  gap: 8rem;
-}
-
 .gap-40 {
   gap: 10rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .self-stretch {
@@ -738,12 +797,24 @@ video {
   border-radius: 4rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-30px {
+  border-radius: 30px;
+}
+
 .border {
   border-width: 1px;
 }
 
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-solid {
@@ -762,6 +833,11 @@ video {
 .border-neutral-700 {
   --tw-border-opacity: 1;
   border-color: rgb(64 64 64 / var(--tw-border-opacity));
+}
+
+.border-neutral-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -788,16 +864,30 @@ video {
   background-color: rgb(29 155 240 / var(--tw-bg-opacity));
 }
 
-.p-login-page-step-1 {
-  padding: 0px 15px 20px 15px;
+.bg-twitter-blue-hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
 .p-20\2c 80\2c 0\2c 80 {
   padding: 20px 80px 0px 80px;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-login-page-step-1 {
+  padding: 0px 15px 20px 15px;
+}
+
 .p-tweet-component-frame {
   padding: 8px 16px;
+}
+
+.px-15px {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .px-2 {
@@ -855,9 +945,9 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-15px {
-  padding-left: 15px;
-  padding-right: 15px;
+.py-18px {
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .pb-2 {
@@ -868,16 +958,12 @@ video {
   padding-bottom: 5rem;
 }
 
-.pr-9 {
-  padding-right: 2.25rem;
-}
-
 .pb-5 {
   padding-bottom: 1.25rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pr-9 {
+  padding-right: 2.25rem;
 }
 
 .pt-5 {
@@ -921,6 +1007,11 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -960,6 +1051,15 @@ video {
   color: rgb(29 155 240 / var(--tw-text-opacity));
 }
 
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
 .shadow-08160 {
   --tw-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
   --tw-shadow-colored: 0px 8px 16px 0px var(--tw-shadow-color);
@@ -985,6 +1085,16 @@ video {
 .placeholder\:text-neutral-500::placeholder {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
 }
 
 .focus-within\:border-twitter-blue:focus-within {

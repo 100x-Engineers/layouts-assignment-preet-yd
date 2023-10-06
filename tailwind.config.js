@@ -34,6 +34,7 @@ module.exports = {
         'login-page-100': '12.4375rem',
         '1.12663rem': '1.12663rem',
         '0.81819rem': '0.81819rem',
+        '68px': '68px',
 
       },
       width: {
@@ -53,7 +54,7 @@ module.exports = {
         '24.375rem': '24.375rem',
         '2.56013rem': '2.56013rem',
         '0.76688rem': '0.76688rem',
-
+        '68px': '68px',
       },
       fontSize: {
         '15px':'15px'
@@ -69,6 +70,7 @@ module.exports = {
       },
       padding: {
         '15px': '15px',
+        '18px': '18px',
         '93px': '93px',
         '20,80,0,80': '20px 80px 0px 80px',
         'search-padding': '10px 247px 10px 16px',
