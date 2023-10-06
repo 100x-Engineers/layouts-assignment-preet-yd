@@ -20,13 +20,22 @@
     <main class="px-4">
         <div class=" relative flex ">
             <img src="../public/images/profile-edit-1-image-18.png" alt="banner img">
+            
             <div class="absolute flex justify-center items-center w-full h-full">
-                <img src="../public/images/profile-edit-1-material-symbols-add-a-photo-outline.svg" alt="">
-                <img src="../public/images/profile-edit-1-x.svg" alt="">
+                <img class="backdrop-blur-sm" src="../public/images/profile-edit-1-material-symbols-add-a-photo-outline.svg" alt="">
+                <img class="backdrop-blur-sm" src="../public/images/profile-edit-1-x.svg" alt="">
             </div>
         </div>
 
-        <div class="flex flex-col gap-5">
+        <div class="relative">
+            <img class=" rounded-full absolute -top-14 left-3" src="../public/images/user-avatar.png">
+            <!-- img add icon inside profile pic -->
+            <!-- <div class="absolute flex justify-center items-center">
+                <img src="../public/images/material-symbols_add-a-photo-outline.svg" alt="photo-outline">
+            </div> -->
+        </div>
+
+        <div class="flex flex-col pt-5 gap-5">
             <section class="">
                 <fieldset class="group flex items-center self-stretch h-16 px-3 py-4 gap-2.5 rounded border border-neutral-500 border-solid focus-within:border-twitter-blue">
                     <legend class="text-neutral-500 font-inter text-xs font-medium leading-normal px-2 group-focus-within:text-twitter-blue">Name</legend>
@@ -35,7 +44,7 @@
             </section>
 
             <section class="">
-                <fieldset class="group flex items-center self-stretch h-40 px-3 py-4 gap-2.5 rounded border border-neutral-500 border-solid focus-within:border-twitter-blue">
+                <fieldset class="group flex items-center self-stretch h-24 px-3 py-4 gap-2.5 rounded border border-neutral-500 border-solid focus-within:border-twitter-blue">
                     <legend class="text-neutral-500 font-inter text-xs font-medium leading-normal px-2 group-focus-within:text-twitter-blue">Bio</legend>
                     <input type="text" placeholder="Bio" class="text-neutral-50 pb-2 font-inter text-base font-normal leading-normal  w-full bg-transparent outline-none placeholder:text-neutral-500">
                 </fieldset>
